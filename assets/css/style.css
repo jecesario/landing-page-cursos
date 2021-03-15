@@ -10,10 +10,11 @@
 .social-link {
     color: #212121;
     margin: 0 5px;
+    text-decoration: none;
 }
 
 .social-link:hover {
-    color: #06dd2a;
+    color: #0dcaf0;
 }
 
 #btn-contador {
