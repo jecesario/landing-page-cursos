@@ -201,8 +201,8 @@ function validaMensagemContato() {
     let contador = document.querySelector('#contador');
     contador.innerHTML = mensagemContato.value.length;
 
-    if(mensagemContato.value.length > 10) {
-        mensagemContatoMsg.innerHTML = 'O campo mensagem não pode ter mais que 10 caracteres';
+    if(mensagemContato.value.length > 200) {
+        mensagemContatoMsg.innerHTML = 'O campo mensagem não pode ter mais que 200 caracteres';
         mensagemContatoMsg.style.color = 'red';
         mensagemContatoOk = false;
     } else {
