@@ -31,10 +31,10 @@
               <a class="nav-link" href="#javascript">Javascript</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#instrutores">Java</a>
+              <a class="nav-link" href="#instrutores">Instrutores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contato">Angular</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -91,12 +91,13 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           
-          <h4 class="mt-5 mb-3">Quer saber mais sobre esse curso?</h4>
+          <h4 class="mt-5 mb-3">Quer receber o curso de HTML?</h4>
+          <div id="alertaHtml" class="alert alert-success" role="alert" style="display: none;"></div>
           <form class="w-100">
             <div class="input-group-lg mb-3">
               <label for="emailHtml" class="form-label d-none">E-mail</label>
-              <input type="emailHtml" class="form-control" id="emailHtml" aria-describedby="emailHelp" placeholder="Digite seu melhor email" onkeyup="validaEmailHtml()">
-              <div id="emailHelp" class="form-text"></div>
+              <input type="emailHtml" class="form-control" id="emailHtml" aria-describedby="emailHtmlMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailHtml()">
+              <div id="emailHtmlMsg" class="form-text"></div>
             </div>
             <div class="d-flex justify-content-end">
               <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailHtml()">Receber curso</button>
@@ -121,12 +122,13 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           
-          <h4 class="mt-5 mb-3">Quer saber mais sobre esse curso?</h4>
+          <h4 class="mt-5 mb-3">Quer receber o curso de CSS?</h4>
+          <div id="alertaCss" class="alert alert-success" role="alert" style="display: none;"></div>
           <form class="w-100">
             <div class="input-group-lg mb-3">
               <label for="emailCss" class="form-label d-none">E-mail</label>
-              <input type="emailCss" class="form-control" id="emailCss" aria-describedby="emailHelp" placeholder="Digite seu melhor email" onkeyup="validaEmailCss()">
-              <div id="emailHelp" class="form-text"></div>
+              <input type="emailCss" class="form-control" id="emailCss" aria-describedby="emailCssMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailCss()">
+              <div id="emailCssMsg" class="form-text"></div>
             </div>
             <div class="d-flex justify-content-end">
               <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailCss()">Receber curso</button>
@@ -145,15 +147,16 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
           
-          <h4 class="mt-5 mb-3">Quer saber mais sobre esse curso?</h4>
+          <h4 class="mt-5 mb-3">Quer receber o curso de JS?</h4>
+          <div id="alertaJs" class="alert alert-success" role="alert" style="display: none;"></div>
           <form class="w-100">
             <div class="input-group-lg mb-3">
-              <label for="emailAction" class="form-label d-none">E-mail</label>
-              <input type="emailAction" class="form-control" id="emailAction" aria-describedby="emailHelp" placeholder="Digite seu melhor email" onkeyup="validaEmailAction()">
-              <div id="emailHelp" class="form-text"></div>
+              <label for="emailJs" class="form-label d-none">E-mail</label>
+              <input type="emailJs" class="form-control" id="emailJs" aria-describedby="emailJsMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailJs()">
+              <div id="emailJsMsg" class="form-text"></div>
             </div>
             <div class="d-flex justify-content-end">
-              <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmail()">Receber curso</button>
+              <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailJs()">Receber curso</button>
             </div>
           </form>
         </div>
