@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Cursos Web</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#html">HTML</a>
@@ -83,92 +83,123 @@
     </div>
     <!-- /banner -->
 
-    <!-- html -->
-    <section class="container p-5" id="html">
-      <div class="row d-flex align-items-center">
+    <!-- sobre -->
+
+    <section class="container p-5" id="sobre">
+      <div class="row">
         <div class="col-md">
-          <h2>HTML 5</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          
-          <h4 class="mt-5 mb-3">Quer receber o curso de HTML?</h4>
-          <div id="alertaHtml" class="alert alert-success" role="alert" style="display: none;"></div>
-          <form class="w-100">
-            <div class="input-group-lg mb-3">
-              <label for="emailHtml" class="form-label d-none">E-mail</label>
-              <input type="emailHtml" class="form-control" id="emailHtml" aria-describedby="emailHtmlMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailHtml()">
-              <div id="emailHtmlMsg" class="form-text"></div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailHtml()">Receber curso</button>
-            </div>
-          </form>
+          <h1 class="text-center">Receba nossos cursos e ganhe um curso gratuito de Git e Github</h1>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md">
-          <img src="assets/images/html5.png" alt="Html5" class="w-100">
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil temporibus totam, magni necessitatibus, eveniet ipsum quae voluptates voluptatibus accusamus, officiis minima odit. Nulla ipsum illo facere, minima iusto debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam enim rem, ipsam ab saepe dolore error. Vero sapiente voluptas rem nam minima distinctio repellendus doloribus repudiandae. Sunt dignissimos vitae repellendus?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md d-flex justify-content-center">
+          <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/o_ECnZ8zk_Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </section>
+
+    <!-- /sobre -->
+
+    <!-- html -->
+    <div class="bg-info bg-gradient">
+      <section class="container p-5" id="html">
+        <div class="row d-flex align-items-center">
+          <div class="col-md">
+            <h2>HTML 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            
+            <h4 class="mt-5 mb-3">Quer receber o curso de HTML?</h4>
+            <div id="alertaHtml" class="alert alert-success" role="alert" style="display: none;"></div>
+            <form class="w-100">
+              <div class="input-group-lg mb-3">
+                <label for="emailHtml" class="form-label d-none">E-mail</label>
+                <input type="emailHtml" class="form-control" id="emailHtml" aria-describedby="emailHtmlMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailHtml()">
+                <div id="emailHtmlMsg" class="form-text"></div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-lg btn-success" onclick="enviaEmailHtml()">Receber curso</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md">
+            <img src="assets/images/html5.png" alt="Html5" class="w-100">
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- /html -->
 
     <!-- css -->
-    <section class="container p-5" id="css">
-      <div class="row d-flex align-items-center">
-        <div class="col-md">
-          <img src="assets/images/css3.png" alt="Css3" class="w-100">
+      <section class="container p-5" id="css">
+        <div class="row d-flex align-items-center">
+          <div class="col-md">
+            <img src="assets/images/css3.png" alt="Css3" class="w-100">
+          </div>
+          <div class="col-md">
+            <h2>CSS 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            
+            <h4 class="mt-5 mb-3">Quer receber o curso de CSS?</h4>
+            <div id="alertaCss" class="alert alert-success" role="alert" style="display: none;"></div>
+            <form class="w-100">
+              <div class="input-group-lg mb-3">
+                <label for="emailCss" class="form-label d-none">E-mail</label>
+                <input type="emailCss" class="form-control" id="emailCss" aria-describedby="emailCssMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailCss()">
+                <div id="emailCssMsg" class="form-text"></div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-lg btn-success" onclick="enviaEmailCss()">Receber curso</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-md">
-          <h2>CSS 3</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          
-          <h4 class="mt-5 mb-3">Quer receber o curso de CSS?</h4>
-          <div id="alertaCss" class="alert alert-success" role="alert" style="display: none;"></div>
-          <form class="w-100">
-            <div class="input-group-lg mb-3">
-              <label for="emailCss" class="form-label d-none">E-mail</label>
-              <input type="emailCss" class="form-control" id="emailCss" aria-describedby="emailCssMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailCss()">
-              <div id="emailCssMsg" class="form-text"></div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailCss()">Receber curso</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+      </section>
     <!-- /css -->
 
     <!-- javascript -->
-    <section class="container p-5" id="javascript">
-      <div class="row d-flex align-items-center">
-        <div class="col-md">
-          <h2>Javascript</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
-          
-          <h4 class="mt-5 mb-3">Quer receber o curso de JS?</h4>
-          <div id="alertaJs" class="alert alert-success" role="alert" style="display: none;"></div>
-          <form class="w-100">
-            <div class="input-group-lg mb-3">
-              <label for="emailJs" class="form-label d-none">E-mail</label>
-              <input type="emailJs" class="form-control" id="emailJs" aria-describedby="emailJsMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailJs()">
-              <div id="emailJsMsg" class="form-text"></div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button type="submit" class="btn btn-lg btn-outline-success" onclick="enviaEmailJs()">Receber curso</button>
-            </div>
-          </form>
+    <div class="bg-info bg-gradient">
+      <section class="container p-5" id="javascript">
+        <div class="row d-flex align-items-center">
+          <div class="col-md">
+            <h2>Javascript</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos alias cum magnam blanditiis beatae, vero totam eveniet, id eaque ipsa porro similique harum eligendi. Obcaecati suscipit velit voluptatibus consectetur?</p>
+            
+            <h4 class="mt-5 mb-3">Quer receber o curso de JS?</h4>
+            <div id="alertaJs" class="alert alert-success" role="alert" style="display: none;"></div>
+            <form class="w-100">
+              <div class="input-group-lg mb-3">
+                <label for="emailJs" class="form-label d-none">E-mail</label>
+                <input type="emailJs" class="form-control" id="emailJs" aria-describedby="emailJsMsg" placeholder="Digite seu melhor email" onkeyup="validaEmailJs()">
+                <div id="emailJsMsg" class="form-text"></div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-lg btn-success" onclick="enviaEmailJs()">Receber curso</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md">
+            <img src="assets/images/javascript.png" alt="Javascript" class="w-100">
+          </div>
         </div>
-        <div class="col-md">
-          <img src="assets/images/javascript.png" alt="Javascript" class="w-100">
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- /javascript -->
 
     <!-- instrutores -->
     <section class="container p-5" id="instrutores">
+      <div class="row mb-5">
+        <div class="col-md d-flex justify-content-center">
+          <h4>Os instrutores do sucesso</h4>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md">
           <div class="card">
@@ -254,41 +285,63 @@
 
     <!-- contato -->
 
-    <section class="container d-flex">
-      <div class="w-100 px-5">
-          <form>
-            <div class="mb-3">
-              <label for="nome" class="form-label">Informe seu nome</label>
-              <input type="nome" class="form-control" id="nome" placeholder="Rafao Pistola" onkeyup="validaNome()">
-              <div id="nomeMsg" class="form-text"></div>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Informe seu e-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="name@example.com" onkeyup="validaEmail()">
-              <div id="emailMsg" class="form-text"></div>
-            </div>
-            <div class="mb-3">
-              <label for="mensagem" class="form-label">Digite sua mensagem</label>
-              <textarea class="form-control" id="mensagem" rows="3" onkeyup="validaMensagem()" maxlength="100"></textarea>
-              <div class="d-flex justify-content-between mt-2">
-                <div id="mensagemMsg" class="form-text"></div>
-                <button type="button" class="btn btn-outline-success btn-sm" id="btn-contador">
-                  Caracteres <span class="badge bg-success" id="contador"></span>
-                </button>
+    <div class="bg-info bg-gradient">
+      <section class="container p-5" id="contato">
+        <div class="row mb-5">
+          <div class="col-md d-flex justify-content-center">
+            <h4>Ficou alguma dúvida? Entre em contato conosco</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div id="alertaContato" class="alert alert-success" role="alert" style="display: none;"></div>
+            <form class="w-100">
+              <div class="input-group-lg mb-3">
+                <label for="nomeContato" class="form-label">Informe seu nome</label>
+                <input type="nomeContato" class="form-control" id="nomeContato" placeholder="Rafao Pistola" onkeyup="validaNomeContato()">
+                <div id="nomeContatoMsg" class="form-text"></div>
               </div>
-            </div>
-          </form>
-      </div>
-      <div class="w-100">
-          <h2>Endereço:</h2>
-          <p>Avenida Paulista, 1000</p>
-          <p>São Paulo - SP</p>
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0981691373895!2d-46.654131648903935!3d-23.564917467534773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1615300660829!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-    </section>
-
+              <div class="input-group-lg mb-3">
+                <label for="emailContato" class="form-label">Informe seu e-mail</label>
+                <input type="emailContato" class="form-control" id="emailContato" placeholder="olhaotempo@ed.com" onkeyup="validaEmailContato()">
+                <div id="emailContatoMsg" class="form-text"></div>
+              </div>
+              <div class="input-group-lg mb-3">
+                <label for="mensagemContato" class="form-label">Digite sua mensagem</label>
+                <textarea class="form-control" id="mensagemContato" rows="3" onkeyup="validaMensagemContato()" maxlength="201" placeholder="Estou gostando dos cursos..."></textarea>
+                <div class="d-flex justify-content-between mt-2">
+                  <div id="mensagemContatoMsg" class="form-text"></div>
+                  <span class="badge bg-success" id="contador"></span>
+                </div>
+                <div class="d-flex justify-content-end mt-3">
+                  <button type="submit" class="btn btn-lg btn-primary" onclick="enviarContato()">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md">
+            <h2>Endereço:</h2>
+            <p>Avenida Paulista, 1000</p>
+            <p>São Paulo - SP</p>
+  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0981691373895!2d-46.654131648903935!3d-23.564917467534773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1615300660829!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- /contato -->
+
+    <!-- footer -->
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          &copy; Todos os direitos reservados.
+        </span>
+      </div>
+    </footer>
+
+    <!-- /footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
   </body>
